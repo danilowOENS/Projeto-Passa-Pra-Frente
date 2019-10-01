@@ -8,3 +8,4 @@ Repositório separado exclusivamente para Front-End (React)
 - Luana Marques
 - Matheus Silva
 - Vanessa da Paixão
+
