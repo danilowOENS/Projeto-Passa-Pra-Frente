@@ -1,5 +1,5 @@
 import React, { useState, } from "react";
-import Input from "../Input";
+import Input from './Input.js';
 
 import "./CadastroD.scss";
 
@@ -49,45 +49,45 @@ const CadastroD = () => {
    return (
      <div className="Cadastro">
        <div className="Imagem"></div>
-//       <h1>Faça seu cadastro de Doador</h1>
-//       <p>{mensagem}</p>
-//       <form onSubmit={handleSubmit}>
-//         <Input
+       <h1>Faça seu cadastro de Doador</h1>
+       <p>{mensagem}</p>
+      <form onSubmit={handleSubmit}>
+        <Input
            value={nome}
            type="text"
-//           label="Nome"
+           label="Nome"
            placeholder="Nome completo"
-//           atualizarState={setNome}
-//           obrigatorio
-//         />
-//         <Input
-//           value={email}
-//           type="email"
-//           label="Email"
-//           placeholder="Digite seu email"
-//           atualizarState={setEmail}
-//         />
-//         <Input
-//           value={confirmEmail}
-//           type="email"
-//           label="Confirmar Email"
-//           placeholder="Confirme seu email"
-//           atualizarState={setConfirmEmail}
-//           obrigatorio
-//         />
-//         <Input
-//           value={senha}
-//           type="password"
-//           label="Senha"
-//           placeholder="Digite sua senha"
-//           atualizarState={setSenha}
-//           obrigatorio
-//         />
-//         <button>Cadastrar</button>
-//       </form>
-//     </div>
-//   );
-// };
+           atualizarState={setNome}
+           obrigatorio
+         />
+         <Input
+           value={email}
+           type="email"
+           label="Email"
+           placeholder="Digite seu email"
+           atualizarState={setEmail}
+         />
+         <Input
+           value={confirmEmail}
+           type="email"
+           label="Confirmar Email"
+           placeholder="Confirme seu email"
+           atualizarState={setConfirmEmail}
+           obrigatorio
+         />
+         <Input
+           value={senha}
+           type="password"
+           label="Senha"
+           placeholder="Digite sua senha"
+           atualizarState={setSenha}
+           obrigatorio
+         />
+         <button>Cadastrar</button>
+      </form>
+    </div>
+  );
+};
 
 
 
