@@ -9,7 +9,7 @@ const CadastroD = () => {
   const [confirmEmail, setConfirmEmail] = useState("");
   const [senha, setSenha] = useState("");
   const [cont,setCont] = useState(1);
-  const [mensagem, setMensagem] = useState("")
+  const [mensagem, setMensagem] = useState("");
   const [statu, setStatus] = useState();
   const handleSubmit = e => {
    
@@ -37,7 +37,7 @@ const CadastroD = () => {
     setSenha("");
     setConfirmEmail("");
     resposta("Cadastrado com sucesso");
-    setStatus(true)
+    setStatus(true);
   }
 
     else{
@@ -48,9 +48,10 @@ const CadastroD = () => {
 
    return (
      <div className="Cadastro">
-       <div className="Imagem"></div>
+       <div className="Imagem">
        <h1>Faça seu cadastro de Doador</h1>
        <p>{mensagem}</p>
+       </div>
       <form onSubmit={handleSubmit}>
         <Input
            value={nome}
