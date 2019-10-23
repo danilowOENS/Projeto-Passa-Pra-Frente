@@ -1,0 +1,22 @@
+ .Cadastro {
+     background-color: red;
+     background-size: cover;
+     margin-top: 6vh;
+    
+       form {
+         margin-left: 50px;
+         display: flex;
+         align-items: flex-end;
+         justify-content: center;
+         flex-direction: column;
+         h1{
+           color:white;
+  
+         }
+       }
+     }
+
+    //  header {
+    //   grid-area: header;
+    //  //background-image: url(./static/imagens/banner.jpg);
+    //   background-size: cover; }

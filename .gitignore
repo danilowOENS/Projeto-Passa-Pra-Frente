@@ -1,1 +1,33 @@
+<<<<<<< HEAD
+<<<<<<< 32ec5cffac993fb6e7f1899edda85f3408a1ff0d
 node_modules
+=======
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.src/App.css
+.src/App.js
+.src/package.json
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+>>>>>>> Cadastro do doador
+=======
+node_modules
+>>>>>>> e4b29327c5475db5fa1126a62f7a9c2d3eb821c5
